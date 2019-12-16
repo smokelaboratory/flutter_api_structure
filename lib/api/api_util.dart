@@ -13,6 +13,6 @@ class ApiUtil {
   }
 
   dynamic getData() async {
-    return (await _apiConnector.get("/todsos/1")).data;
+    return (await _apiConnector.get("/todos/1")).data;
   }
 }

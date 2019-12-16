@@ -24,11 +24,11 @@ abstract class BaseScreenState<T extends BaseScreen> extends State<T> {
   }
 
   void successToast({@required String message}) {
-    
+    print(message);
   }
 
   void errorToast({@required String message}) {
-    
+    print(message);
   }
 
   @override
